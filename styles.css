@@ -4,7 +4,7 @@ html, body {
     padding: 0;
 }
 
-#main {
+.main {
     position: relative;
     background-color: #141414;
     background-image: -webkit-linear-gradient(top, #CCC, #EEE 100%);
@@ -17,7 +17,7 @@ html, body {
     color: #333;
     font: 300 15px/1 Verdana;
 }
-#main:before {
+.main:before {
     background-image: -webkit-radial-gradient(center, circle, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 100%);
     background-image:    -moz-radial-gradient(center, circle, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 100%);
     background-image:     -ms-radial-gradient(center, circle, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 100%);
